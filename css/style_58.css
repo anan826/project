@@ -432,44 +432,34 @@ right
   height: 15rem;
   border-radius: 0.5rem;
 }
-
-.tile-1 {
+.homepage-right .tile-1 {
   grid-area: a;
 }
-
-.tile-2 {
+.homepage-right .tile-2 {
   grid-area: b;
 }
-
-.tile-3 {
+.homepage-right .tile-3 {
   grid-area: c;
 }
-
-.tile-4 {
+.homepage-right .tile-4 {
   grid-area: d;
 }
-
-.tile-5 {
+.homepage-right .tile-5 {
   grid-area: e;
 }
-
-.tile-6 {
+.homepage-right .tile-6 {
   grid-area: f;
 }
-
-.tile-7 {
+.homepage-right .tile-7 {
   grid-area: g;
 }
-
-.tile-8 {
+.homepage-right .tile-8 {
   grid-area: h;
 }
-
-.tile-9 {
+.homepage-right .tile-9 {
   grid-area: i;
 }
-
-.tile-10 {
+.homepage-right .tile-10 {
   grid-area: j;
 }
 

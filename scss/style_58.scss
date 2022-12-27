@@ -161,12 +161,9 @@ Sidebar
         color: var(--clr-grey-5);
     }
 }
-
-
 .show-sidebar{
     transform: translateX(0);
 }
-
 /*
 ================
 section
@@ -215,8 +212,6 @@ section
         }
     }
 }
-
-
 /*
 ==================
 right
@@ -257,65 +252,42 @@ right
             }
         }
     }
-}
-.tile-1{
+    .tile-1{
 
-    grid-area: a;
-  
-  }
-  
-  .tile-2{
-  
-    grid-area: b;
-  
-  }
-  
-  .tile-3{
-  
-    grid-area: c;
-  
-  }
-  
-  .tile-4{
-  
-    grid-area: d;
-  
-  }
-  
-  .tile-5{
-  
-    grid-area: e;
-  
-  }
-  
-  .tile-6{
-  
-    grid-area: f;
-  
-  }
-  
-  .tile-7{
-  
-    grid-area: g;
-  
-  }
-  
-  .tile-8{
-  
-    grid-area: h;
-  
-  }
-  
-  .tile-9{
-  
-    grid-area: i;
-  
-  }
-  .tile-10{
-  
-    grid-area: j;
-  
-  }
+        grid-area: a;
+      
+      }
+      .tile-2{
+      
+        grid-area: b;
+      
+      }
+      .tile-3{
+        grid-area: c;
+      }
+      .tile-4{
+        grid-area: d;
+      }
+      .tile-5{
+        grid-area: e;
+      }
+      .tile-6{
+        grid-area: f;
+      }
+      .tile-7{
+        grid-area: g;
+      }
+      .tile-8{
+        grid-area: h;
+      }
+      .tile-9{
+        grid-area: i;
+      }
+      .tile-10{
+        grid-area: j;
+      }
+}
+
 
 /*
 ==================

@@ -161,7 +161,7 @@ Hero
 
 
 .hero {
-    background-color: var(--clr-primary-10);
+    background-color: rgb(203, 219, 201);
 
     &-center {
         min-height: calc(100vh - 4rem);
@@ -266,11 +266,11 @@ Hero
             &::before {
                 content: '';
                 position: absolute;
-                top: 2rem;
-                right: -2rem;
+                top: 5rem;
+                right: 2rem;
                 width: 100%;
                 height: 100%;
-                border: 0.25rem solid var(--clr-primary-5);
+                border: 0.25rem solid rgb(158, 214, 151);
                 border-radius: var(--radius);
             }
         }
@@ -310,6 +310,7 @@ About
 */
 /* section title added to globals */
 .about {
+    background-color: #eb9798;
     &-title {
       text-align: left;
       margin-bottom: 2rem;
@@ -329,7 +330,7 @@ About
       position: absolute;
       width: 100%;
       height: 100%;
-      border: 0.25rem solid var(--clr-primary-5);
+      border: 0.25rem solid pink;
       top: 2rem;
       left: -2rem;
       border-radius: var(--radius);
@@ -362,6 +363,7 @@ About
 Interest
 =================
 */
+
 .interest-center {
     display: grid;
     grid-template-columns: 50fr 50fr;
@@ -385,7 +387,22 @@ Interest
         }
     }
 }
-
+@media screen and (min-width:768px){
+    .right {
+        display: grid;
+        height: 50%;
+        margin: 5rem 2rem;
+        padding: 2rem;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 1rem;
+        }
+        .interest-btn {
+            width: 100px;
+        }
+    }
+}
 
 
 
@@ -401,7 +418,7 @@ Skills
 }
 
 .skills {
-    background: var(--clr-primary-9);
+    background: rgb(221, 178, 126);
     
     &-center {
         width: 80vw;
@@ -436,7 +453,7 @@ Skills
         position: absolute;
         top: 0;
         left: 0;
-        background: var(--clr-primary-5);
+        background: orange;
         height: 100%;
         width: 50%;
         border-radius: var(--radius);
