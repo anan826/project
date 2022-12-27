@@ -1,0 +1,81 @@
+.center {
+  display: grid;
+  grid-template-columns: 10fr 90fr;
+}
+
+.sidebar-sticky {
+  background-color: rgb(52, 89, 170);
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 1px;
+}
+.sidebar-sticky h4 {
+  color: black;
+  font-size: 2.5rem;
+}
+.sidebar-sticky h4:hover {
+  color: orange;
+}
+
+.section-center {
+  background-color: rgb(255, 200, 97);
+  padding: 10rem;
+}
+.section-center h2 {
+  font-size: 5rem;
+}
+.section-center h3 {
+  font-size: 4rem;
+}
+.section-center h4 {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 400px) {
+  .section-center {
+    background-color: rgb(255, 200, 97);
+    padding: 1rem;
+  }
+  .section-center h2 {
+    font-size: 3rem;
+  }
+  .section-center h3 {
+    font-size: 2rem;
+  }
+  .section-center h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-center {
+    background-color: rgb(255, 200, 97);
+    padding: 5rem;
+  }
+  .section-center h2 {
+    font-size: 3.5rem;
+  }
+  .section-center h3 {
+    font-size: 2.5rem;
+  }
+  .section-center h4 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    background-color: rgb(255, 200, 97);
+    padding: 9rem;
+  }
+  .section-center h2 {
+    font-size: 4rem;
+  }
+  .section-center h3 {
+    font-size: 3rem;
+  }
+  .section-center h4 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=learning_58.css.map */
