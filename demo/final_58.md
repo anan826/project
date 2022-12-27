@@ -1,7 +1,7 @@
 ### Github repo url
 
 [My github repo](https://github.com/anan826/project.git)
-[My vercel](project-pkaraxz0w-anan826.vercel.app)
+[My vercel](https://project-anan826.vercel.app/)
 
 ##我另外做了一個 project 存放這些資料，主要是因為擔心期末 project 的檔案會跟平常上課的內容搞混
 
